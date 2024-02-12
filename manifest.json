@@ -6,8 +6,8 @@
   "background_color": "#FFFFFF",
   "display": "fullscreen",
   "display_override": ["fullscreen", "standalone", "minimal-ui", "standalone", "window-controls-overlay"],
-  "id": "min-lighthouse-salute/",
-  "start_url": "min-lighthouse-salute/",
+  "id": "Step-by-step",
+  "start_url": "Step-by-step",
   "orientation": "any",
   "manifest_version": 1,
   "version": "1.0.0",
@@ -15,7 +15,7 @@
   "related_applications": [
       {
       "platform": "web",
-      "id": "http://min-lighthouse-salute-main/"
+      "id": "https://github.com/griarsvah/Step-by-step"
       }
   ],
   "icons": [
@@ -57,11 +57,11 @@
   "protocol_handlers": [
     {
       "protocol": "web+jngl",
-      "url": "min-lighthouse-salute/lookup?type=%s"
+      "url": "Step-by-step/lookup?type=%s"
     },
     {
       "protocol": "web+jnglstore",
-      "url": "min-lighthouse-salute/shop?for=%s"
+      "url": "Step-by-step/shop?for=%s"
     }
   ]
 }
