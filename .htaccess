@@ -1,0 +1,3 @@
+<IfModule mod_headers.c>
+    Header set Content-Security-Policy "default-src 'self';  script-src 'self' https://getbootstrap.com/ https://cdn.jsdelivr.net/; object-src 'self'; style-src 'self' https://cdn.jsdelivr.net/; base-uri 'self'; connect-src 'self'; child-src 'self'; require-trusted-types-for 'script'; img-src 'self' https://griarsvah.github.io/;"
+</IfModule>
