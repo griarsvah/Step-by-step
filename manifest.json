@@ -1,0 +1,60 @@
+{
+  "name": "Minimal Manifest",
+  "short_name": "MM",
+  "description": "A basic example extension with only required keys",
+  "theme_color": "#FFFFFF",
+  "background_color": "#FFFFFF",
+  "display": "fullscreen",
+  "display_override": ["fullscreen", "standalone", "minimal-ui", "standalone", "window-controls-overlay"],
+  "id": "https://griarsvah.github.io/min-lighthouse-salute/",
+  "start_url": "https://griarsvah.github.io/min-lighthouse-salute/",
+  "orientation": "any",
+  "prefer_related_applications": false,
+  "manifest_version": 3,
+  "version": "3.0.0",
+  "icons": [
+    {
+      "src": "https://griarsvah.github.io/PWABuilder/images/android/launchericon-144.png",
+      "type": "image/png",
+      "sizes": "144x144",
+      "purpose": "any"
+    },
+    {
+      "src": "https://griarsvah.github.io/PWABuilder/images/maskable/icon_x384.png",
+      "type": "image/png",
+      "sizes": "384x384",
+      "purpose": "maskable"
+    },
+    {
+      "src": "https://griarsvah.github.io/PWABuilder/images/ios/512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "https://image-placeholder.com/images/actual-size/320x320.png",
+      "type": "image/png",
+      "sizes": "320x320",
+      "form_factor": "narrow",
+      "label": "Homescreen of Awesome App"
+    },
+    {
+      "src": "https://griarsvah.github.io/PWABuilder/images/maskable/icon_x384.png",
+      "type": "image/png",
+      "sizes": "384x384",
+      "form_factor": "wide",
+      "label": "Homescreen of Awesome App"
+    }
+  ],"protocol_handlers": [
+    {
+      "protocol": "web+jngl",
+      "url": "https://griarsvah.github.io/min-lighthouse-salute/lookup?type=%s"
+    },
+    {
+      "protocol": "web+jnglstore",
+      "url": "https://griarsvah.github.io/min-lighthouse-salute/shop?for=%s"
+    }
+  ]
+}
